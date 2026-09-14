@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HI Cocktails Bartenders</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" id="logoLink">HI <em>Cocktails</em></a>
+    <nav class="navlinks" id="navlinks">
+      <a href="#sobre" class="nav-anchor">Sobre</a>
+      <a href="#servicos" class="nav-anchor">Serviços</a>
+      <a href="#galeria" class="nav-anchor">Galeria</a>
+      <a href="#contato" class="nav-anchor">Contato</a>
+      <a class="btn btn-solid" id="navQuoteBtn">Verificar preços</a>
+    </nav>
+    <button class="burger" id="burgerBtn" aria-label="Abrir menu">☰</button>
+  </div>
+</header>
+
+<!-- ============ HOME ============ -->
+<main id="view-home">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <h1>Coquetelaria autoral para o seu <i>evento</i>.</h1>
+        <p class="lede">A HI Cocktails leva bar, bartenders e drinks preparados na hora para casamentos, formaturas e festas particulares — do brinde de boas-vindas ao último drink da noite.</p>
+        <div class="ctas">
+          <a class="btn btn-solid" id="heroQuoteBtn">Quero meu orçamento</a>
+          <a href="#sobre" class="btn btn-ghost nav-anchor">Conheça a HI Cocktails</a>
+        </div>
+        <p class="locale">Atendemos Campo Grande e região.</p>
+      </div>
+      <div class="glass-art">
+        <svg viewBox="0 0 220 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="draw-line dl-1" pathLength="1" d="M40 20 H180 L110 150 V270" stroke="#c8a565" stroke-width="1.4"/>
+          <ellipse class="draw-line dl-2" pathLength="1" cx="110" cy="20" rx="70" ry="10" stroke="#c8a565" stroke-width="1.4"/>
+          <path class="draw-line dl-3" pathLength="1" d="M70 288 H150" stroke="#c8a565" stroke-width="1.4"/>
+          <path class="draw-line dl-3" pathLength="1" d="M110 270 V288" stroke="#c8a565" stroke-width="1.4"/>
+          <path class="draw-line dl-4" pathLength="1" d="M52 34 C 80 70, 140 70, 168 34" stroke="#d6b679" stroke-width="1" opacity="0.6"/>
+          <circle class="draw-line dl-4" pathLength="1" cx="128" cy="46" r="6" stroke="#d6b679" stroke-width="1"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <hr class="hairline">
+
+  <section id="sobre">
+    <div class="wrap about">
+      <div class="figure"></div>
+      <div>
+        <span class="section-head kicker" style="display:block; margin-bottom:14px;">Sobre a HI Cocktails</span>
+        <h2 style="font-size:clamp(26px,3.2vw,34px); line-height:1.25; max-width:16ch;">Bar próprio, equipe própria, um único ponto de contato até o dia do evento.</h2>
+        <p>A HI Cocktails nasceu da vontade de trazer para os eventos de Campo Grande o mesmo nível de coquetelaria que se encontra em bares autorais: drinks bem feitos, servidos por quem entende do assunto.</p>
+        <p>Cuidamos de tudo o que envolve o bar — estrutura, insumos, gelo, copos e uma equipe de bartenders treinada — para que você só precise decidir o cardápio de drinks e aproveitar a festa.</p>
+        <p>Atendemos casamentos, aniversários, formaturas, eventos corporativos e comemorações particulares, sempre com um orçamento pensado para o formato e o tamanho do seu evento.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="servicos">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Onde atuamos</span>
+        <h2>Um bar para cada tipo de celebração</h2>
+        <p>Cada formato de evento pede uma dinâmica diferente de atendimento — ajustamos o serviço ao ritmo da sua festa.</p>
+      </div>
+      <div class="service-list">
+        <div class="service-row">
+          <h3>Casamentos</h3>
+          <p>Do welcome drink à pista de dança, um bar pensado para acompanhar todas as etapas da cerimônia e da festa.</p>
+          <span class="mark">01</span>
+        </div>
+        <div class="service-row">
+          <h3>Aniversários</h3>
+          <p>Cardápio de drinks alinhado ao estilo da comemoração, do intimista ao grande salão.</p>
+          <span class="mark">02</span>
+        </div>
+        <div class="service-row">
+          <h3>Formaturas</h3>
+          <p>Estrutura de bar preparada para grande volume de convidados sem perder a qualidade de cada drink.</p>
+          <span class="mark">03</span>
+        </div>
+        <div class="service-row">
+          <h3>Eventos corporativos</h3>
+          <p>Atendimento discreto e ágil para confraternizações, lançamentos e eventos de relacionamento.</p>
+          <span class="mark">04</span>
+        </div>
+        <div class="service-row">
+          <h3>Chá bar</h3>
+          <p>Uma seleção de drinks leves e autorais para receber os convidados antes da festa.</p>
+          <span class="mark">05</span>
+        </div>
+        <div class="service-row">
+          <h3>Eventos particulares</h3>
+          <p>Confraternizações e comemorações menores com o mesmo padrão de atendimento dos grandes eventos.</p>
+          <span class="mark">06</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap stats">
+      <div class="stat"><div class="num">6+</div><div class="label">anos de experiência</div></div>
+      <div class="stat"><div class="num">300+</div><div class="label">eventos atendidos</div></div>
+      <div class="stat"><div class="num">40</div><div class="label">rótulos de drinks no repertório</div></div>
+      <div class="stat"><div class="num">2020</div><div class="label">início da HI Cocktails</div></div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Por que a HI Cocktails</span>
+        <h2>O que muda quando o bar é levado a sério</h2>
+      </div>
+      <div class="diff-grid">
+        <div class="diff-item">
+          <h3>Drinks autorais e clássicos</h3>
+          <p>Um repertório entre receitas consagradas e criações próprias, ajustado ao perfil de cada evento.</p>
+        </div>
+        <div class="diff-item">
+          <h3>Estrutura completa</h3>
+          <p>Bar, insumos, gelo, copos e equipamentos — você não precisa providenciar nada além do espaço.</p>
+        </div>
+        <div class="diff-item">
+          <h3>Equipe treinada</h3>
+          <p>Bartenders com experiência em grandes volumes e no atendimento próximo ao convidado.</p>
+        </div>
+        <div class="diff-item">
+          <h3>Orçamento sob medida</h3>
+          <p>O valor considera número de convidados, duração e formato do serviço — sem pacotes engessados.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Galeria</span>
+        <h2>Alguns momentos que já servimos</h2>
+      </div>
+      <div class="gallery">
+        <div class="g-tile g1"></div>
+        <div class="g-tile g2"></div>
+        <div class="g-tile g3"></div>
+        <div class="g-tile g4"></div>
+        <div class="g-tile g5"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <div class="testi">
+        <div class="testi-content" id="testiContent">
+          <blockquote id="testi-quote">“O bar foi um dos pontos altos do casamento. Os drinks fizeram sucesso do início ao fim, e a equipe se antecipou a tudo o que precisávamos.”</blockquote>
+          <div class="who" id="testi-who">Camila e Rafael, casamento em outubro</div>
+        </div>
+        <div class="testi-nav">
+          <button id="testiPrev" aria-label="Depoimento anterior">‹</button>
+          <button id="testiNext" aria-label="Próximo depoimento">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <div class="wrap">
+      <div>
+        <h2>Vai realizar um evento?</h2>
+        <p>Monte o seu bar em poucos passos e receba uma estimativa antes de falar com a gente.</p>
+      </div>
+      <a class="btn btn-solid" id="finalQuoteBtn">Verificar preços</a>
+    </div>
+  </section>
+
+  <footer id="contato">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <div class="logo">HI <em style="font-style:italic; color:var(--gold-bright);">Cocktails</em></div>
+          <div>Bartenders para eventos em Campo Grande e região.</div>
+        </div>
+        <div class="foot-links">
+          <a href="https://wa.me/5567998567418" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="#sobre" class="nav-anchor">Sobre</a>
+          <a href="#servicos" class="nav-anchor">Serviços</a>
+          <a href="#galeria" class="nav-anchor">Galeria</a>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2026 HI Cocktails Bartenders</span>
+        <span>Campo Grande, MS</span>
+      </div>
+    </div>
+  </footer>
+
+</main>
+
+<!-- ============ ORÇAMENTO ============ -->
+<main id="view-orcamento">
+  <div class="quote-hero">
+    <div class="wrap">
+      <a class="back" id="backBtn">← Voltar ao site</a>
+      <h1>Vamos montar seu orçamento</h1>
+      <p>Responda algumas perguntas sobre o seu evento e acompanhe a estimativa ao lado. Ao final, você envia os dados direto para o nosso WhatsApp.</p>
+    </div>
+  </div>
+
+  <div class="wrap quote-body">
+    <div>
+
+      <div class="qstep">
+        <div class="qnum">Passo 1</div>
+        <h3>Qual é o seu evento?</h3>
+        <div class="select-field">
+          <select id="tipoEvento">
+            <option value="Casamento">Casamento</option>
+            <option value="Aniversário">Aniversário</option>
+            <option value="Formatura">Formatura</option>
+            <option value="Evento corporativo">Evento corporativo</option>
+            <option value="Chá bar">Chá bar</option>
+            <option value="Evento particular">Evento particular</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="qstep">
+        <div class="qnum">Passo 2</div>
+        <h3>Quantas pessoas participarão?</h3>
+        <div class="stepper">
+          <button id="pessoasMinus">–</button>
+          <div class="val">convidados<br><strong id="pessoasVal">100</strong></div>
+          <button id="pessoasPlus">+</button>
+        </div>
+      </div>
+
+      <div class="qstep">
+        <div class="qnum">Passo 3</div>
+        <h3>Por quantas horas?</h3>
+        <div class="stepper">
+          <button id="horasMinus">–</button>
+          <div class="val">horas<br><strong id="horasVal">5</strong></div>
+          <button id="horasPlus">+</button>
+        </div>
+      </div>
+
+      <div class="qstep">
+        <div class="qnum">Passo 4</div>
+        <h3>Qual experiência você deseja?</h3>
+        <div class="tier-options">
+          <div class="tier active" data-tier="Clássica">
+            <div class="t-name">Clássica</div>
+            <div class="t-desc">Cardápio de drinks consagrados, bar completo.</div>
+          </div>
+          <div class="tier" data-tier="Premium">
+            <div class="t-name">Premium</div>
+            <div class="t-desc">Inclui autorais, insumos especiais e mais opções de drinks.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="qstep">
+        <div class="qnum">Passo 5</div>
+        <h3>Escolha os drinks do seu bar</h3>
+        <p class="qhint">O pacote já inclui 3 drinks. Cada drink adicional soma um pequeno valor por pessoa.<br><em>Cardápio de exemplo — troque pelos drinks do seu professor quando tiver acesso a eles.</em></p>
+        <div class="drink-grid" id="drinkGrid">
+          <div class="drink-card active" data-drink="Caipirinha">
+            <span class="d-check"></span>
+            <span><span class="d-name">Caipirinha</span><span class="d-desc">Cachaça, limão e açúcar</span></span>
+          </div>
+          <div class="drink-card active" data-drink="Moscow Mule">
+            <span class="d-check"></span>
+            <span><span class="d-name">Moscow Mule</span><span class="d-desc">Vodka, gengibre e limão</span></span>
+          </div>
+          <div class="drink-card active" data-drink="Gin Tônica">
+            <span class="d-check"></span>
+            <span><span class="d-name">Gin Tônica</span><span class="d-desc">Gin, tônica e especiarias</span></span>
+          </div>
+          <div class="drink-card" data-drink="Aperol Spritz">
+            <span class="d-check"></span>
+            <span><span class="d-name">Aperol Spritz</span><span class="d-desc">Aperol, espumante e soda</span></span>
+          </div>
+          <div class="drink-card" data-drink="Sex on the Beach">
+            <span class="d-check"></span>
+            <span><span class="d-name">Sex on the Beach</span><span class="d-desc">Vodka, licor de pêssego e sucos</span></span>
+          </div>
+          <div class="drink-card" data-drink="Margarita">
+            <span class="d-check"></span>
+            <span><span class="d-name">Margarita</span><span class="d-desc">Tequila, licor de laranja e limão</span></span>
+          </div>
+          <div class="drink-card" data-drink="Cosmopolitan">
+            <span class="d-check"></span>
+            <span><span class="d-name">Cosmopolitan</span><span class="d-desc">Vodka, licor de laranja e cranberry</span></span>
+          </div>
+          <div class="drink-card" data-drink="Mojito">
+            <span class="d-check"></span>
+            <span><span class="d-name">Mojito</span><span class="d-desc">Rum, hortelã, limão e soda</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="qstep">
+        <div class="qnum">Passo 6</div>
+        <h3>Como podemos te chamar?</h3>
+        <div class="contact-fields">
+          <input type="text" id="nome" placeholder="Seu nome">
+          <div class="field-row">
+            <input type="text" id="data" placeholder="Data do evento">
+            <input type="text" id="cidade" placeholder="Cidade / local">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="summary-card">
+      <h3>Sua experiência</h3>
+      <div class="summary-line"><span>Evento</span><span id="resEvento">Casamento</span></div>
+      <div class="summary-line"><span>Convidados</span><span id="resPessoas">100</span></div>
+      <div class="summary-line"><span>Duração</span><span id="resHoras">5 horas</span></div>
+      <div class="summary-line"><span>Experiência</span><span id="resTier">Clássica</span></div>
+      <div class="summary-line"><span>Drinks escolhidos</span><span id="resDrinks">3</span></div>
+
+      <div class="estimate">
+        <div class="lbl">Estimativa</div>
+        <div class="num" id="resEstimate">R$ 2.520 – R$ 2.900</div>
+        <div class="note">Valor aproximado. O orçamento final é ajustado conforme os detalhes do seu evento.</div>
+      </div>
+
+      <a class="btn btn-solid" id="whatsBtn" target="_blank" rel="noopener">Solicitar orçamento no WhatsApp</a>
+    </div>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
